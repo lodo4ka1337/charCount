@@ -1,6 +1,6 @@
-package com.lodo4ka.testTask.services.impl;
+package com.lodo4ka.charCount.services.impl;
 
-import com.lodo4ka.testTask.services.CharNumberService;
+import com.lodo4ka.charCount.services.CharNumberService;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

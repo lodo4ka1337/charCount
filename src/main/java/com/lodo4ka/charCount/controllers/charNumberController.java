@@ -1,18 +1,18 @@
-package com.lodo4ka.testTask.controllers;
+package com.lodo4ka.charCount.controllers;
 
-import com.lodo4ka.testTask.services.CharNumberService;
+import com.lodo4ka.charCount.services.CharNumberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CharNumberController {
+public class charNumberController {
 
     private final CharNumberService charNumberService;
 
     @Autowired
-    public CharNumberController(CharNumberService charNumberService) {
+    public charNumberController(CharNumberService charNumberService) {
         this.charNumberService = charNumberService;
     }
 

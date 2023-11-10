@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lodo4ka</groupId>
-	<artifactId>testTask</artifactId>
+	<artifactId>charCount</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>testTask</name>
 	<description>REST API for the job test task</description>
