@@ -1,6 +1,12 @@
 # CharCount
 REST API that counts characters in line
 
+## How to use
+Clone the repository.<br>
+Run the CharCountApplication.<br>
+Type request in any API testing service (such as Postman) on a standard 8080 port.<br>
+(Standard URL: http://localhost:8080)
+
 ## API Methods Description
 
 - Get frequency of occurance of each character in a line (/charNumber/get)<br>
@@ -15,7 +21,6 @@ REST API that counts characters in line
   due to the RFC 3986 specification
 
 ## Request example
-(Testing was performed with Postman)
 
 URL should look like this:<br>
 http://localhost:8080/charNumber/get?inputLine=bAbAAc
