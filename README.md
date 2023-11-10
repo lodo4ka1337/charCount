@@ -2,9 +2,9 @@
 REST API that counts characters in line
 
 ## How to use
-Clone the repository.<br>
-Run the CharCountApplication.<br>
-Type request in any API testing service (such as Postman) on a standard 8080 port.<br>
+Clone the repository<br>
+Run the CharCountApplication<br>
+Type request in any API testing service (such as Postman) on a standard 8080 port<br>
 (Standard URL: http://localhost:8080)
 
 ## API Methods Description
