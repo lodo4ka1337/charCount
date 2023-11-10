@@ -22,8 +22,12 @@ public class CharNumberServiceImpl implements CharNumberService {
                 .collect(Collectors.toMap(
                         Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> null, LinkedHashMap::new));
 
+        return getResultLine(charMapSorted);
+    }
+
+    private String getResultLine(Map<Character, Integer> charMap) {
         StringBuilder resultLine = new StringBuilder();
-        Iterator<Map.Entry<Character, Integer>> it = charMapSorted.entrySet().iterator();
+        Iterator<Map.Entry<Character, Integer>> it = charMap.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry<Character, Integer> pair = it.next();
             if (it.hasNext()) resultLine

@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class charNumberController {
+public class CharNumberController {
 
     private final CharNumberService charNumberService;
 
     @Autowired
-    public charNumberController(CharNumberService charNumberService) {
+    public CharNumberController(CharNumberService charNumberService) {
         this.charNumberService = charNumberService;
     }
 
